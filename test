@@ -1,1 +1,78 @@
-hell test now we enter to code dinky
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        body {
+            background-color: azure; /* This will auto adjust based on AI */
+            color: #000;
+            font-family: Arial, sans-serif;
+        }
+        .menu {
+            background-color: blue; /* Blue base color for headers */
+            padding: 10px;
+        }
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .menu li {
+            float: left;
+            margin-right: 10px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            display: block;
+        }
+        .submenu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .submenu li {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#main">Main Menu</a></li>
+            <li>
+                <a href="#help">Help</a>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="about">
+        <h1>About Me</h1>
+        <p>This is the About Me section.</p>
+    </div>
+
+    <div id="main">
+        <h1>Main Menu</h1>
+        <p>This is the Main Menu section.</p>
+    </div>
+
+    <div id="help">
+        <h1>Help</h1>
+        <p>This is the Help section. If you need assistance, contact us.</p>
+        <div id="contact">
+            <h2>Contact</h2>
+            <p>Contact number: 91453627**</p>
+        </div>
+    </div>
+</body>
+</html>
